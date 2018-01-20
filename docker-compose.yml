@@ -1,0 +1,24 @@
+version: '3.1'
+
+services:
+  medicaldaskworkshop:
+    build:
+      context: ./dockerconfig
+      dockerfile: Dockerfile
+    image: medical/daskworkshop
+    hostname: medical-dask-workshop
+    container_name: medical-dask-workshop
+    stdin_open: true
+    tty: true
+    ports:
+      - "6006:6006"
+      - "8008:8008"
+      - "8888:8888"
+      - "8889:8889"
+      - "8786:8786"
+      - "8787:8787"
+    environment:
+      - GRANT_SUDO=yes
+    volumes:
+      - ./notebooks:/home/jovyan/workshop/
+    command: bash start-notebook.sh --NotebookApp.token='magicalml'

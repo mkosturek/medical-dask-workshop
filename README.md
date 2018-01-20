@@ -1,8 +1,9 @@
 # **Medical**.ml Dask & Pandas Workshops
-**Wroclaw University of Science and Technology**
-Faculty of Computer Science and Management
-**medical**.**ml** Students Research Circle
+
 <img src="medicalml.png" width="1000">
+**Wroclaw University of Science and Technology** Faculty of Computer Science and Management
+
+**medical**.**ml** Students Research Circle
 
 ## Getting started - what is it about?
 Medical.&#x200B;ml workshops on data processing tools:
@@ -56,17 +57,11 @@ Workshop content is located in the `./notebooks/` directory in a form of Jupyter
 
 
 ## But why all this? 
-```mermaid
-graph LR
-A((Ugly Data)) --> B(Pandas)
-A --> C(Numpy)
-A --> D(<b>Dask</b>)
-A --> O(...)
-B --> E((Beautiful Data))
-C --> E
-D --> E
-O --> E
-E --> F(Machine Learning)
-F --> G(???)
-G --> H{<b>Profit</b>}
-```
+\> Ugly Data
+\> Pandas, Numpy, **Dask**, ...
+\> Beautiful Data
+\> Machine Learning
+\> ???
+\> ???
+\> ???
+\> **Profit**

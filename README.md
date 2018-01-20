@@ -4,7 +4,7 @@
 
 **Wroclaw University of Science and Technology** Faculty of Computer Science and Management
 
-**medical**.**ml** Students Research Circle
+**medical**.**ml** Students Research Group
 
 ## Getting started - what is it about?
 Medical.&#x200B;ml workshops on data processing tools:

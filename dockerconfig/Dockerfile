@@ -3,8 +3,9 @@ FROM jupyter/base-notebook
 USER root
 
 RUN sudo apt update
-RUN sudo apt install graphviz -y
-
+RUN sudo apt install -y grpahviz \
+	net-tools
+	
 RUN conda install --yes -c conda-forge \
 	scikit-learn \
 	numpy \
@@ -14,6 +15,8 @@ RUN conda install --yes -c conda-forge \
 	graphviz \
  	jupyter_contrib_nbextensions \
     && conda clean -tipsy
+	
+EXPOSE 8787
 	
 
 USER jovyan

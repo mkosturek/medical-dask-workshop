@@ -1,0 +1,6 @@
+*.csv
+*dask-worker-space*
+*mydask.png
+*_checkpoint*
+*dask-docker*
+*DataPreparation*
